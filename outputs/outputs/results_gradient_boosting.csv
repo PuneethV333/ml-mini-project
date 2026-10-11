@@ -1,0 +1,7 @@
+Subset,Model,UnderSample,Hyperparameters,Accuracy,Sensitivity,Specificity,ROC_AUC,Val_AUC
+A,Gradient Boosting (XGBoost),No,"46 trees, depth 4, lr 0.3",0.848,0.366,0.953,0.869,0.876
+B,Gradient Boosting (XGBoost),No,"16 trees, depth 4, lr 0.3",0.856,0.416,0.951,0.88,0.88
+A,Gradient Boosting (XGBoost),Yes,"31 trees, depth 4, lr 0.1",0.739,0.869,0.711,0.873,0.867
+B,Gradient Boosting (XGBoost),Yes,"91 trees, depth 4, lr 0.1",0.767,0.853,0.749,0.873,0.874
+C,Gradient Boosting (XGBoost),Yes,"34 trees, depth 4, lr 0.1",0.767,0.866,0.746,0.877,0.872
+D,Gradient Boosting (XGBoost),Yes,"46 trees, depth 4, lr 0.1",0.762,0.856,0.742,0.88,0.87

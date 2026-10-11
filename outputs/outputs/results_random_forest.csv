@@ -1,0 +1,7 @@
+Subset,Model,UnderSample,Hyperparameters,Accuracy,Sensitivity,Specificity,ROC_AUC,Val_AUC
+A,Random Forest,No,"{'max_depth': 12, 'min_samples_leaf': 20}",0.844,0.356,0.95,0.875,0.871
+B,Random Forest,No,"{'max_depth': 12, 'min_samples_leaf': 5}",0.856,0.362,0.962,0.882,0.878
+A,Random Forest,Yes,"{'max_depth': None, 'min_samples_leaf': 20}",0.748,0.866,0.723,0.875,0.868
+B,Random Forest,Yes,"{'max_depth': 12, 'min_samples_leaf': 5}",0.752,0.884,0.723,0.877,0.871
+C,Random Forest,Yes,"{'max_depth': 16, 'min_samples_leaf': 5}",0.749,0.806,0.736,0.835,0.822
+D,Random Forest,Yes,"{'max_depth': 16, 'min_samples_leaf': 5}",0.745,0.8,0.733,0.836,0.821

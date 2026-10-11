@@ -1,0 +1,7 @@
+Subset,Model,UnderSample,Hyperparameters,Accuracy,Sensitivity,Specificity,ROC_AUC,Val_AUC
+A,Decision Tree,No,"{'max_depth': 7, 'min_samples_leaf': 50}",0.847,0.362,0.951,0.859,0.857
+B,Decision Tree,No,"{'max_depth': 5, 'min_samples_leaf': 10}",0.842,0.362,0.946,0.864,0.862
+A,Decision Tree,Yes,"{'max_depth': 5, 'min_samples_leaf': 50}",0.716,0.888,0.678,0.87,0.859
+B,Decision Tree,Yes,"{'max_depth': 10, 'min_samples_leaf': 50}",0.776,0.825,0.766,0.867,0.857
+C,Decision Tree,Yes,"{'max_depth': 6, 'min_samples_leaf': 50}",0.774,0.847,0.759,0.87,0.857
+D,Decision Tree,Yes,"{'max_depth': 6, 'min_samples_leaf': 50}",0.774,0.847,0.759,0.87,0.855
